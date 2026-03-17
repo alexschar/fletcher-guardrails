@@ -1,8 +1,35 @@
-.DS_Store
+# Fletcher operational files — never push to public repo
+# These accumulate personal data, API responses, and session context
+
+# Session data
+sessions.json
+*.jsonl
+session-*/
+
+# Daily logs and transcripts
+daily-*.md
+transcript-*.md
+conversation-*.md
+
+# API response caches
+cache/
+.cache/
+api-responses/
+
+# Credentials and secrets
 .env
+.env.*
 *.key
 *.pem
-MEMORY.md
-memory/
-.openclaw/
-nohup.out
+*.secret
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
