@@ -1,0 +1,8 @@
+.DS_Store
+.env
+*.key
+*.pem
+MEMORY.md
+memory/
+.openclaw/
+nohup.out

@@ -1,4 +1,3 @@
-cat > USER.md << 'EOF'
 # Operator Profile
 
 Name: [Operator]
@@ -22,7 +21,7 @@ Role: Solo developer, creator, and entrepreneur. Builds across software, AI, gam
 - When in doubt, ask rather than assume.
 - Always explain what you are about to do before doing it.
 - When presenting options, recommend one and explain why.
-- For decisions involving money, public reputation, or external communication: always QUEUE.
+- For decisions involving money, public reputation, or external communication: always EXTERNAL.
 - Maximum 3 daily focuses: 1 primary, 1 secondary, 1 optional.
 
 ## Off-Limits
